@@ -1,0 +1,18 @@
+connect: 897 sucess (89.70 req/s) / 0 errors
+publish: 897 sucess (89.70 req/s) / 0 errors
+time: 10.001306723s
+connect: 1667 sucess (77.00 req/s) / 0 errors
+publish: 1667 sucess (77.00 req/s) / 0 errors
+time: 20.001819938s
+connect: 2563 sucess (89.60 req/s) / 0 errors
+publish: 2563 sucess (89.60 req/s) / 0 errors
+time: 30.002109613s
+connect: 3334 sucess (77.10 req/s) / 0 errors
+publish: 3334 sucess (77.10 req/s) / 0 errors
+time: 40.002276063s
+connect: 4228 sucess (89.40 req/s) / 0 errors
+publish: 4228 sucess (89.40 req/s) / 0 errors
+time: 50.002492705s
+connect: 5001 sucess (77.30 req/s) / 0 errors
+publish: 5001 sucess (77.30 req/s) / 0 errors
+time: 1m0.003562909s
