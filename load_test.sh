@@ -1,4 +1,6 @@
 #!/bin/bash
+git clone https://github.com/ghfalcon7/tb_load_test.git /root/tb_load_test
+cd /root/tb_load_test
 INSTANCE=$(wget -q -O - http://169.254.169.254/latest/meta-data/instance-id)
 rank=$(aws autoscaling describe-auto-scaling-groups --auto-scaling-group-name load_test --region eu-west-3  --query 'AutoScalingGroups[*].Instances[*].[InstanceId]' --output text |grep -n $INSTANCE | cut -d":" -f1)
 rank=$(printf "%02d" $rank)
